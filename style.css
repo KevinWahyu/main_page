@@ -402,7 +402,7 @@ body {
   }
 
   .about .profile .imageprofile img {
-    max-width: 20rem;
+    max-width: 10rem;
     transition: 0.3s;
   }
 }
