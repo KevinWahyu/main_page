@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Page</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Icons Source (Feather Icons)-->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
+    <!-- Navigation Bar-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"><span>V</span>ertag</a>
+      <!-- Navigation Utama -->
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#list">List</a>
+      </div>
+      <!-- Feature Tambahan -->
+      <div class="navbar-extra">
+        <a id="search"><i data-feather="search"></i></a>
+        <a id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Nav End -->
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1 id="h11h">My<span>Albums</span></h1>
+        <p id="p1h">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae,
+          laudantium?
+        </p>
+        <a href="#list" class="albumslist" id="a1h">Go Check it</a>
+      </main>
+    </section>
+    <!-- Hero End -->
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <h2 id="tentang">Tentang <span>Saya</span></h2>
+      <section class="profile">
+        <div class="imageprofile">
+          <img src="img/photo.jpeg" alt="I am" />
+        </div>
+        <div class="descprofile">
+          <h2>Kevin <span>Wahyu</span></h2>
+          <h3>Aku masih <span>pemula</span></h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
+            esse eveniet perferendis dicta distinctio obcaecati excepturi
+            similique officiis sapiente placeat et cupiditate quibusdam
+            reiciendis illo ratione repudiandae, repellat est? Blanditiis
+            nesciunt, repellat sed impedit unde ullam quidem facilis sit tenetur
+            praesentium corrupti cum minus molestiae dolorem minima facere
+            repellendus, fugiat, quam aliquam nihil? Alias eligendi voluptatem
+            quisquam tempora soluta, accusantium repudiandae! Porro, delectus.
+            Hic tempora nam consequatur? Ad sit esse consectetur explicabo
+            temporibus possimus debitis illum, veritatis fuga quibusdam. Facere
+            officia itaque, perspiciatis expedita incidunt labore porro veniam
+            quas excepturi eaque consectetur animi? Modi, id eaque at sapiente
+            consectetur minima.
+          </p>
+        </div>
+      </section>
+    </section>
+    <!-- About End -->
+
+    <!-- List Section -->
+    <section class="list" id="list">
+      <h1>List <span>Albums</span></h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio eos
+        laborum eius repellat, corrupti quidem.
+      </p>
+      <h2 class="headinglist">FrontEnd</h2>
+      <div class="box-container">
+        <!-- bisa langsung menambahkan box -->
+        <div class="box">
+          <div class="img">
+            <img src="img/logo/html-logo.png" alt="html" />
+          </div>
+          <div class="icons">
+            <a href="#" class="check">Check</a>
+          </div>
+          <div class="contentlist">
+            <h3>HTML</h3>
+            <div class="paraf">Lorem ipsum dolor sit amet.</div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="img/logo/css-logo.png" alt="html" />
+          </div>
+          <div class="icons">
+            <a href="#" class="check">Check</a>
+          </div>
+          <div class="contentlist">
+            <h3>CSS</h3>
+            <div class="paraf">Lorem ipsum dolor sit amet.</div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="img/logo/js-logo.png" alt="html" />
+          </div>
+          <div class="icons">
+            <a href="#" class="check">Check</a>
+          </div>
+          <div class="contentlist">
+            <h3>JavaScript</h3>
+            <div class="paraf">Lorem ipsum dolor sit amet.</div>
+          </div>
+        </div>
+      </div>
+      <h2 class="headinglist" id="padding">gameDev</h2>
+      <div class="box-container">
+        <!-- bisa langsung menambahkan box -->
+        <div class="box">
+          <div class="img">
+            <img src="img/logo/godot-logo.png" alt="html" />
+          </div>
+          <div class="icons">
+            <a href="#" class="check">Check</a>
+          </div>
+          <div class="contentlist">
+            <h3>Godot Engine</h3>
+            <div class="paraf">Lorem ipsum dolor sit amet.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- List End -->
+
+    <!-- Icons Source (Feather Icons)-->
+    <script>
+      feather.replace();
+    </script>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
