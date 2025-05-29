@@ -400,7 +400,11 @@ body {
   .navbar .navbar-nav a:hover ::after {
     transform: scaleX(0.2);
   }
-
+  
+  .about {
+    padding: 7.5rem 7% 29rem;
+    transition: 0.3s;
+  }
   .about .profile .imageprofile img {
     max-width: 10rem;
     transition: 0.3s;
