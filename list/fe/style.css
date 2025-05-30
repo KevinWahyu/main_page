@@ -97,9 +97,11 @@ body {
 }
 
 .navbar .navbar-extra #back {
-  padding: 1rem;
-  padding-bottom: 1.5rem;
-  font-size: 1.4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  line-height: 1rem;
+  font-size: 1.3rem;
   color: #fff;
   background-color: var(--chili-red);
   border-radius: 0.5rem;
