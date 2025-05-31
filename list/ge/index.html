@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameEngine</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Icons Source (Feather Icons)-->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
+    <!-- Navigation Bar-->
+    <nav class="navbar">
+      <a href="../../main/index.html" class="navbar-logo"
+        ><span>V</span>ertag</a
+      >
+      <!-- Navigation Utama -->
+      <div class="navbar-nav">
+        <a href="../../main/index.html">Home</a>
+        <a href="#list">List Project</a>
+      </div>
+      <!-- Feature Tambahan -->
+      <div class="navbar-extra">
+        <a id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Nav End -->
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1 id="h11h">Game <span>Engine</span></h1>
+        <a href="#list" class="albumslist" id="a1h"
+          ><i data-feather="chevrons-down"></i
+        ></a>
+      </main>
+    </section>
+    <!-- Hero End -->
+
+    <!-- List Section -->
+    <section class="list" id="list">
+      <h1>List <span>Project</span></h1>
+      <div class="box-container">
+        <!-- bisa langsung menambahkan box -->
+        <div class="box">
+          <div class="img">
+            <img src="../../img/ge/underc.png" alt="projectimg" />
+          </div>
+          <div class="icons">
+            <a href="#" class="check">Check</a>
+            <a href="#" class="check">Download</a>
+          </div>
+          <div class="contentlist">
+            <h3>Project1</h3>
+            <div class="paraf">Lorem ipsum dolor sit amet.</div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="../../img/ge/underc.png" alt="projectimg" />
+          </div>
+          <div class="icons">
+            <a href="#" class="check">Check</a>
+            <a href="#" class="check">Download</a>
+          </div>
+          <div class="contentlist">
+            <h3>Project2</h3>
+            <div class="paraf">Lorem ipsum dolor sit amet.</div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="../../img/ge/underc.png" alt="projectimg" />
+          </div>
+          <div class="icons">
+            <a href="#" class="check">Check</a>
+            <a href="#" class="check">Download</a>
+          </div>
+          <div class="contentlist">
+            <h3>Project2</h3>
+            <div class="paraf">Lorem ipsum dolor sit amet.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- List End -->
+
+    <!-- Icons Source (Feather Icons)-->
+    <script>
+      feather.replace();
+    </script>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
